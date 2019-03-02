@@ -1,0 +1,294 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-reflect:(2.11.7, 2.11.8)
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.4)
+[debug] :: resolving dependencies :: concpar-assignments#concpar-assignments$sources_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f3234a0
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [test]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;2.2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3156354b
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.6
+[debug] 	found org.scalatest#scalatest_2.11;2.2.6 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12d19761
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
+[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
+[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b14b97a
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->default(compile)]
+[info] Resolving junit#junit;4.8.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@722f2b0
+[debug] sbt-chain: module revision found in cache: junit#junit;4.8.1
+[debug] 	found junit#junit;4.8.1 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [compile-internal]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [optional]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [provided]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [runtime-internal]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [optional]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [test-internal]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [test]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test->master]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [optional]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [provided]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test-internal->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test-internal->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test-internal->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test-internal->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test-internal->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test-internal->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test-internal->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->junit#junit;4.8.1 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments$sources_2.11;1.0 [scala-tool]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
+[debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-library/2.11.8/srcs/scala-library-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-library/2.11.8/srcs/scala-library-sources.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.jar(src) (411ms)
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scalatest/scalatest_2.11/2.2.6/srcs/scalatest_2.11-sources.jar
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scalatest/scalatest_2.11/2.2.6/jars/scalatest_2.11.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scalatest/scalatest_2.11/2.2.6/srcs/scalatest_2.11-sources.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scalatest/scalatest_2.11/2.2.6/jars/scalatest_2.11.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.6!scalatest_2.11.jar(src) (397ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.6!scalatest_2.11.jar (1640ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] junit#junit;4.8.1!junit.jar
+[debug] 	[NOT REQUIRED] junit#junit;4.8.1!junit.jar(src)
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-compiler/2.11.8/srcs/scala-compiler-sources.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-compiler/2.11.8/srcs/scala-compiler-sources.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src) (635ms)
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/srcs/scala-reflect-sources.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.8/srcs/scala-reflect-sources.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src) (210ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] :: resolution report :: resolve 240ms :: artifacts dl 3334ms
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 compile produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-compile.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 runtime produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-runtime.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 test produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-test.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 provided produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-provided.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 optional produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-optional.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 compile-internal produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-compile-internal.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 runtime-internal produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-runtime-internal.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 test-internal produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-test-internal.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 plugin produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-plugin.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 sources produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-sources.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 docs produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-docs.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 pom produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-pom.xml
+[debug] 	report for concpar-assignments#concpar-assignments$sources_2.11;1.0 scala-tool produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments$sources_2.11-scala-tool.xml
+[debug] 	resolve done (240ms resolve - 3334ms download)

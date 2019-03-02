@@ -1,0 +1,369 @@
+[info] Updating {file:/Users/pierreschutz/Desktop/EPFL/BA4/Parallelism%20and%20Concurrency/project06/}project06...
+[debug] :: resolving dependencies :: concpar-assignments#concpar-assignments_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e96b89c
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@e96b89c
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-library/2.11.8/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.11.8
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-library/2.11.8/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-library;2.11.8
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-lang#scala-library;2.11.8
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
+[debug] 	public: found md file for org.scala-lang#scala-library;2.11.8
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom (2.11.8)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.pom(pom.original) (190ms)
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+[debug] 	found org.scala-lang#scala-library;2.11.8 in public
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [test]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;2.2.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.6 {test=[default(compile)]}
+[info] Resolving org.scalatest#scalatest_2.11;2.2.6 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.6 {test=[default(compile)]}
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scalatest/scalatest_2.11/2.2.6/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalatest#scalatest_2.11;2.2.6
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scalatest/scalatest_2.11/2.2.6/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scalatest#scalatest_2.11;2.2.6
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom
+[debug] 	local-preloaded: no ivy file found for org.scalatest#scalatest_2.11;2.2.6
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom
+[debug] 	public: found md file for org.scalatest#scalatest_2.11;2.2.6
+[debug] 		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom (2.2.6)
+[debug] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom
+[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.6!scalatest_2.11.pom(pom.original) (160ms)
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scalatest/scalatest_2.11/2.2.6/bundles/scalatest_2.11.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scalatest/scalatest_2.11/2.2.6/bundles/scalatest_2.11.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[debug] 	found org.scalatest#scalatest_2.11;2.2.6 in public
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
+[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
+[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->default(compile)]
+[info] Resolving junit#junit;4.8.1 ...
+[debug] sbt-chain: Checking cache for: dependency: junit#junit;4.8.1 {test=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: junit#junit;4.8.1
+[debug] 	found junit#junit;4.8.1 in sbt-chain
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [compile-internal]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [optional]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [runtime-internal]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [test-internal]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [test]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [runtime]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [test->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->default(compile)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->junit#junit;4.8.1 [test->master]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [optional]
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for concpar-assignments#concpar-assignments_2.11;1.0 [scala-tool]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
+[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-compiler/2.11.8/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.11.8
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-compiler/2.11.8/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-compiler;2.11.8
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-lang#scala-compiler;2.11.8
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
+[debug] 	public: found md file for org.scala-lang#scala-compiler;2.11.8
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom (2.11.8)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.pom(pom.original) (154ms)
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-compiler/2.11.8/jars/scala-compiler.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-compiler/2.11.8/jars/scala-compiler.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
+[debug] 	found org.scala-lang#scala-compiler;2.11.8 in public
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.11.8
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.8/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-reflect;2.11.8
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-lang#scala-reflect;2.11.8
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
+[debug] 	public: found md file for org.scala-lang#scala-reflect;2.11.8
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom (2.11.8)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.pom(pom.original) (246ms)
+[debug] 		tried /Users/pierreschutz/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/jars/scala-reflect.jar
+[debug] 		tried /Users/pierreschutz/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.8/jars/scala-reflect.jar
+[debug] 		tried file:////Users/pierreschutz/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in public
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies concpar-assignments#concpar-assignments_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.jar (3023ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.6!scalatest_2.11.jar(bundle) (2968ms)
+[debug] 	[NOT REQUIRED] junit#junit;4.8.1!junit.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar (4302ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar (1556ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+[debug] :: resolution report :: resolve 4008ms :: artifacts dl 11873ms
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 compile produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-compile.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 runtime produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-runtime.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 test produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-test.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 provided produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-provided.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 optional produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-optional.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 compile-internal produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-compile-internal.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 runtime-internal produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-runtime-internal.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 test-internal produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-test-internal.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 plugin produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-plugin.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 sources produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-sources.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 docs produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-docs.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 pom produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-pom.xml
+[debug] 	report for concpar-assignments#concpar-assignments_2.11;1.0 scala-tool produced in /Users/pierreschutz/Desktop/EPFL/BA4/Parallelism and Concurrency/project06/target/resolution-cache/reports/concpar-assignments-concpar-assignments_2.11-scala-tool.xml
+[debug] 	resolve done (4008ms resolve - 11873ms download)
+[info] Done updating.

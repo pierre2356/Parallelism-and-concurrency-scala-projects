@@ -1,7 +1,8 @@
 # Parallelism and Concurrency in Scala
 
-The repository gather my code from all the differents projects done as part of the course COMP206 - Parallelism and Concurrency 2018 at EPFL : 
-* [Course page](http://lara.epfl.ch/w/parcon18:top)
+The repository gather my code from all the differents projects done as part of the course COMP206 - Parallelism and Concurrency 2018 at EPFL :
+* [Course descriptoin page on EPFL website](https://edu.epfl.ch/coursebook/en/parallelism-and-concurrency-CS-206)
+* [Course page on Lara Lab website](http://lara.epfl.ch/w/parcon18:top)
 
 
 ## Project 1 : Parallel Box Blur Filter
